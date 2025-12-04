@@ -1,0 +1,34 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# --- Virtuelle Umgebung ---
+.venv/
+venv/
+env/
+
+# --- VS Code ---
+.vscode/
+
+# --- Logs ---
+*.log
+
+# --- OS-Müll ---
+.DS_Store
+Thumbs.db
+
+# --- Environment Variablen ---
+.env
+
+# --- Chat-Verläufe / Daten (falls du später welche speicherst) ---
+chats/
+logs/
+memory/
+
+# --- Ollama (falls lokale Modelldaten ins Projekt rutschen sollten) ---
+*.gguf
