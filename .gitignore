@@ -25,10 +25,26 @@ Thumbs.db
 # --- Environment Variablen ---
 .env
 
-# --- Chat-Verläufe / Daten (falls du später welche speicherst) ---
+# --- Chat-Verläufe / Daten ---
 chats/
 logs/
 memory/
+
+# --- RAG / Vector DB / Index-Artefakte ---
+indexes/
+# falls du mal anders benennst:
+**/chroma/
+**/*.sqlite3
+**/*.sqlite
+**/*.db
+**/*.duckdb
+
+# --- Wissens- & Style-Daten (meist privat) ---
+data/wissen/
+data/style/
+
+# --- Generierte Style-/Profile-Outputs (kann private Stilmerkmale enthalten) ---
+style_profile.txt
 
 # --- Ollama (falls lokale Modelldaten ins Projekt rutschen sollten) ---
 *.gguf
