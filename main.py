@@ -164,7 +164,7 @@ def main():
             print("🧹 Chatverlauf zurückgesetzt.")
             continue
 
-        if user_input == "/reindex":
+        if user_input == "/update":
             client.delete_collection(name=COLLECTION_NAME)
             collection = client.get_or_create_collection(name=COLLECTION_NAME)
             build_or_update_index(collection)
