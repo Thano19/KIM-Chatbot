@@ -32,18 +32,31 @@ memory/
 
 # --- RAG / Vector DB / Index-Artefakte ---
 indexes/
-# falls du mal anders benennst:
 **/chroma/
 **/*.sqlite3
 **/*.sqlite
 **/*.db
 **/*.duckdb
 
-# --- Wissens- & Style-Daten (meist privat) ---
-data/wissen/
-data/style/
+# --- data/ Ordnerstruktur pushen, aber keine Inhalte ---
+# Ordner sollen im Repo existieren:
+!data/
+!data/wissen/
+!data/style/
 
-# --- Generierte Style-/Profile-Outputs (kann private Stilmerkmale enthalten) ---
+# Inhalte in data/wissen und data/style ignorieren:
+data/wissen/*
+data/style/*
+
+# aber .gitkeep erlauben (damit Git die leeren Ordner trackt)
+!data/wissen/.gitkeep
+!data/style/.gitkeep
+
+# (optional) wenn du auch Unterordner-Struktur behalten willst:
+!data/wissen/**/.gitkeep
+!data/style/**/.gitkeep
+
+# --- Generierte Style-/Profile-Outputs ---
 style_profile.txt
 
 # --- Ollama (falls lokale Modelldaten ins Projekt rutschen sollten) ---

@@ -51,6 +51,8 @@ KIM-Chatbot/
    └─ chroma/                      # ChromaDB Datenbank (nicht versionieren)
 ```
 
+---
+
 ## Testen des Projekts
 Zum Testen der Funktionalität und Beantwortung der Leitfrage wurde ein Experiment durchgeführt. Der Chatbot sollte meinen Schreibstil imitieren und in einem Chatkontext mit meinem Kommilitonen sowie dem Dozenten eingesetzt werden.
 
@@ -64,15 +66,15 @@ Zum Testen der Funktionalität und Beantwortung der Leitfrage wurde ein Experime
 - Falls ja: aufgrund  von Stil oder aufgrund von inhaltlichen Unstimmigkeiten
 
 ### Resultat
-Der Chatbot wurde relativ schnell als nicht-menschlich erkannt. Der Schreibstil hat zwar Ähnlichkeiten mit meiner Artikulation jedoch wird inhaltlich schnell klar, dass nicht mir kommuniziert wird.
+Der Chatbot wurde relativ schnell als nicht-menschlich erkannt. Der Schreibstil hat zwar Ähnlichkeiten mit meiner Artikulation, jedoch wird inhaltlich schnell klar, dass nicht mit mir kommuniziert wird.
 
 ---
 
 ## Herausforderungen
-- Die erste Herausforderung bestand in der generellen Nutzung eines lokalen Chatbots. Aufgrund Hardware basierter Probleme konnte zu Beginn des Projekts nicht Llama 3 genutzt werden sondern es wurde tinyllama verwendet. Dieser hat aber relativ schnell seine Grenzen gezeigt in dem nicht ordentlich in der Lage war in der deutschen Sprache zu kommunizieren sowie das Ignorieren der Textdateien zum embedden.
+- Die erste Herausforderung bestand in der generellen Nutzung eines lokalen Chatbots. Auf Grund Hardware basierter Probleme, konnte zu Beginn des Projekts nicht Llama 3 genutzt werden. Es wurde stattdessen tinyllama verwendet. Dieser hat aber relativ schnell seine Grenzen gezeigt, in dem dieser nicht ordentlich in der Lage war in der deutschen Sprache zu kommunizieren. Außerdem hat dieser Textdateien zum embedden ignoriert.
 - Bei der Entwicklung des Chatbots war das hauptsächliche Problem die Verarbeitung der Textdateien, da diese am Anfang nicht wirklich embeddet wurden und somit auch nicht aufgenommen wurden.
 
 ---
 
 ## Fazit
-Das Projekt zeigt, dass es nicht so schnell und einfach geht eine Person auf kommunikativer Basis zu imitieren. Gründe für das Fehlschlagen des Experiments sind sehr wahrscheinlich die verwendete Datenmenge sowie das ausgewählte Modell. Das Ergebnis des Experiments würde sehr wahrscheinlich sich nicht so schnell ergeben haben, wenn deutlich größere Datenmengen sowie ein größeres Modell verwendet worden wäre.
+Das Projekt zeigt, dass es nicht so schnell und einfach geht eine Person auf kommunikativer Basis zu imitieren. Gründe für das Fehlschlagen des Experiments sind sehr wahrscheinlich die verwendete Datenmenge sowie das ausgewählte Modell. Das Ergebnis des Experiments würde sehr wahrscheinlich sich nicht so schnell ergeben, wenn deutlich größere Datenmengen sowie ein größeres Modell verwendet worden wären.
