@@ -197,7 +197,6 @@ def main():
                 "Schreibe im folgenden Stilprofil. "
                 "- Emojis sind OPTIONAL (max 1), und nicht in jeder Antwort.\n"
                 " Nie nur mit einem Emoji antworten.\n"
-                "Wichtig: Du bist NICHT die Person, du schreibst nur im Stil. "
                 "Übernimm keine Fakten aus dem Stilprofil.\n\n"
                 f"STYLE-PROFIL:\n{STYLE_PROFILE}"
     ),
