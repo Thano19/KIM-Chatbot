@@ -51,6 +51,8 @@ KIM-Chatbot/
    └─ chroma/                      # ChromaDB Datenbank (nicht versionieren)
 ```
 
+---
+
 ## Testen des Projekts
 Zum Testen der Funktionalität und Beantwortung der Leitfrage wurde ein Experiment durchgeführt. Der Chatbot sollte meinen Schreibstil imitieren und in einem Chatkontext mit meinem Kommilitonen sowie dem Dozenten eingesetzt werden.
 
