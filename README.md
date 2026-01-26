@@ -77,4 +77,13 @@ Der Chatbot wurde relativ schnell als nicht-menschlich erkannt. Der Schreibstil 
 ---
 
 ## Fazit
-Das Projekt zeigt, dass es nicht so schnell und einfach geht eine Person auf kommunikativer Basis zu imitieren. Gründe für das Fehlschlagen des Experiments sind sehr wahrscheinlich die verwendete Datenmenge sowie das ausgewählte Modell. Das Ergebnis des Experiments würde sehr wahrscheinlich sich nicht so schnell ergeben haben, wenn deutlich größere Datenmengen sowie ein größeres Modell verwendet worden wäre.
+Das Projekt zeigt, dass es nicht so schnell und einfach geht eine Person auf kommunikativer Basis zu imitieren. Gründe für das Fehlschlagen des Experiments sind sehr wahrscheinlich die verwendete Datenmenge sowie das ausgewählte Modell. Das Ergebnis des Experiments würde sehr wahrscheinlich sich nicht so schnell ergeben haben, wenn deutlich größere Datenmengen sowie ein größeres Modell verwendet worden wären.
+
+## Quellen
+### Bezug zur Umsetzung
+- https://github.com/ollama/ollama-python
+- https://docs.ollama.com/api/introduction
+- https://docs.ollama.com/capabilities/embeddings
+
+### Hilfe zur Umsetzung
+- https://chatgpt.com
